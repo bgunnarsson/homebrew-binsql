@@ -1,8 +1,8 @@
 class Binsql < Formula
-  desc "TUI SQLite client"
+  desc "TUI SQL client for SQLite, Postgres, MSSQL and MySQL"
   homepage "https://github.com/bgunnarsson/binsql"
-  url "https://github.com/bgunnarsson/binsql/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "d567782a04678983bf28619635911f285bcc4033670f8b191f45d800b14a88d4"
+  url "https://github.com/bgunnarsson/binsql/archive/refs/tags/1.0.0.tar.gz"
+  sha256 "d312fde25e748c39962829ce6819a857a8edd8125e8172a9029ff2c092c3c9cc"
   license "MIT"
 
   depends_on "go" => :build
@@ -16,4 +16,3 @@ class Binsql < Formula
     assert_match "BINSQL", shell_output("#{bin}/binsql 2>&1", 1)
   end
 end
-
