@@ -1,8 +1,8 @@
 class Binsql < Formula
   desc "TUI SQL client for SQLite, Postgres, MSSQL and MySQL"
   homepage "https://github.com/bgunnarsson/binsql"
-  url "https://github.com/bgunnarsson/binsql/archive/refs/tags/1.0.0.tar.gz"
-  sha256 "d312fde25e748c39962829ce6819a857a8edd8125e8172a9029ff2c092c3c9cc"
+  url "https://github.com/bgunnarsson/binsql/archive/refs/tags/v2.0.0.tar.gz"
+  sha256 "ab6b582d1280de3effc9541f50d53e88a22ace3c55c8b3d5ad6a50842d3cba3c"
   license "MIT"
 
   depends_on "go" => :build
